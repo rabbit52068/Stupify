@@ -1,22 +1,29 @@
 # Stupify
 Spotify Now Playing Inky pHat Badge
-
-Requirement 
-Spotipy
+<br><br>
+## Requirements
+ 
+### Spotipy
+```
 pip3 spotipy
 pip3 install git+https://github.com/plamere/spotipy.git --upgrade
-
-Inky
+```
+### Inky 
+``` 
 curl https://get.pimoroni.com/inky | bash
-or
-sudo pip3 install inky
-
-Stupify
+```
+or ```sudo pip3 install inky``` (didn't work for me, hung at numby)
+<br><br>
+## Configuration
+### Stupify.py
 Pull current user playing track from Spotify Web API.
 Render result to Inky pHat
 
-now
-Same as Stupify but without Inky pHat output.
+### now.py
+Same as Stupify but without the Inky pHat output.
+<br><br>
+## Todo:
+MQTT integration
 
-Todo:
-MQTT int
+## Reference
+[Old version on pip/easy_install installation #211](https://github.com/plamere/spotipy/issues/211)
