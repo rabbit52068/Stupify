@@ -12,7 +12,7 @@ pip3 install git+https://github.com/plamere/spotipy.git --upgrade
 ``` 
 curl https://get.pimoroni.com/inky | bash
 ```
-or ```sudo pip3 install inky``` (didn't work for me, hung at numby)
+or ```sudo pip3 install inky``` (didn't work for me, hung at numpy)
 <br><br>
 ## Configuration
 ### Stupify.py
